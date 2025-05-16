@@ -1,0 +1,26 @@
+{
+  "name": "manaba",
+  "version": "0.0.1-dev",
+  "description": "Automatically log in to manaba and retrieve the list of classes, assignments, and due dates ",
+  "keywords": [
+    "manaba"
+  ],
+  "homepage": "https://github.com/sumyka/manaba#readme",
+  "bugs": {
+    "url": "https://github.com/sumyka/manaba/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumyka/manaba.git"
+  },
+  "license": "MIT",
+  "author": "sumyka",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "tsc && node .dist/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.8.2"
+  }
+}
